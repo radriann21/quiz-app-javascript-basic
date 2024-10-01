@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué es JS?",
+    "answers": [
+      "Un lenguaje de programación",
+      "Un sistema operativo",
+      "Un navegador web",
+      "Un motor de búsqueda"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 2,
+    "question": "¿Qué es HTML?",
+    "answers": [
+      "Un lenguaje de programación",
+      "Un lenguaje de marcado",
+      "Un sistema operativo",
+      "Una base de datos"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 3,
+    "question": "¿Qué es CSS?",
+    "answers": [
+      "Un lenguaje de programación",
+      "Un servidor web",
+      "Un editor de texto",
+      "Una hoja de estilos en cascada"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 4,
+    "question": "¿Qué es SQL?",
+    "answers": [
+      "Un lenguaje de programación",
+      "Un sistema operativo",
+      "Un lenguaje de consulta",
+      "Una herramienta de diseño"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 5,
+    "question": "¿Qué es Python?",
+    "answers": [
+      "Un servidor web",
+      "Un sistema operativo",
+      "Un lenguaje de programación",
+      "Un framework"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "id": 6,
+    "question": "¿Qué es Java?",
+    "answers": [
+      "Un navegador web",
+      "Un lenguaje de programación",
+      "Una base de datos",
+      "Un sistema operativo"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "id": 7,
+    "question": "¿Qué es Git?",
+    "answers": [
+      "Un lenguaje de programación",
+      "Un sistema operativo",
+      "Un sistema de control de versiones",
+      "Un servidor web"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 8,
+    "question": "¿Qué es GitHub?",
+    "answers": [
+      "Un editor de texto",
+      "Un repositorio de código",
+      "Un navegador web",
+      "Una red social"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 9,
+    "question": "¿Qué es Node.js?",
+    "answers": [
+      "Un servidor web",
+      "Un lenguaje de programación",
+      "Un entorno de ejecución de JavaScript",
+      "Una base de datos"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "id": 10,
+    "question": "¿Qué es React?",
+    "answers": [
+      "Un sistema operativo",
+      "Una biblioteca de JavaScript",
+      "Un lenguaje de programación",
+      "Un servidor web"
+    ],
+    "correct_answer": 0
+  }
+]

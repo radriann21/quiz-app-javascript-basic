@@ -37,3 +37,19 @@ article:hover {
   transform: translateY(-5px);
 }
 
+button.check {
+  width: 140px;
+  padding: .5rem;
+  font-weight: 800;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #d0caca;
+  cursor: pointer;
+  transition: .3s ease-in all;
+}
+button.check:hover {
+  background-color: #75a0f1;
+  color: #fff;
+}
+
