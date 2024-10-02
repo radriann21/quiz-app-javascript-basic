@@ -30,7 +30,7 @@
       "Un editor de texto",
       "Una hoja de estilos en cascada"
     ],
-    "correct_answer": 0
+    "correct_answer": 3
   },
   {
     "id": 4,
@@ -52,7 +52,7 @@
       "Un lenguaje de programación",
       "Un framework"
     ],
-    "correct_answer": 0
+    "correct_answer": 2
   },
   {
     "id": 6,
@@ -85,7 +85,7 @@
       "Un navegador web",
       "Una red social"
     ],
-    "correct_answer": 2
+    "correct_answer": 1
   },
   {
     "id": 9,
@@ -107,6 +107,6 @@
       "Un lenguaje de programación",
       "Un servidor web"
     ],
-    "correct_answer": 0
+    "correct_answer": 1
   }
 ]

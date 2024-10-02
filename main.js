@@ -8,11 +8,45 @@ const check = document.getElementById('checkButton')
 
 
 let questionIndex = 0 // actual question
-let answerIndex = null // index of the selected answer
+let answerIndex = 0 // index of the selected answer
 let correctAnswers = 0 // number of correct answers
+
+// reset button
+const resetButton = document.createElement('button')
+resetButton.classList.add('check')
+resetButton.innerText = 'Reset'
+resetButton.addEventListener('click', () => {
+  window.location.reload()
+})
+
+function win() {
+  quizContainer.innerHTML = ''
+
+  const message = document.createElement('h2')
+  message.innerText = 'You win!'
+  quizContainer.appendChild(message)
+  quizContainer.appendChild(resetButton)
+}
+
+function lose() {
+  quizContainer.innerHTML = ''
+
+  const message = document.createElement('h2')
+  message.innerText = 'You Lose!'
+  quizContainer.appendChild(message)
+  quizContainer.appendChild(resetButton)
+}
 
 
 function initializeUI() {
+  if (questionIndex === 10) {
+    if (correctAnswers >= 7) {
+      win()
+    } else if (correctAnswers < 7) {
+      lose()
+    }
+  }
+
   question.innerText = questions[questionIndex].question
   correctAnswersNumber.innerText = correctAnswers
 }
@@ -40,23 +74,35 @@ function createAnswers() {
   })
 }
 
-function validateAnswer() {  
+function validateAnswer() {
   if (questions[questionIndex].correct_answer === answerIndex) {
-    alert('correct!')
+    alert('Correct!')
     correctAnswers++
-    questionIndex++
-    answerIndex = 0
+  } else {
+    alert('Incorrect!')
+  }
+
+  questionIndex++
+
+  if (questionIndex < questions.length) {
+    answerIndex = null // Reset the selected answer
     initializeUI()
     createAnswers()
   } else {
-    alert('incorrect!')
+    if (correctAnswers >= 7) {
+      win()
+      check.remove()
+    } else {
+      lose()
+      check.remove()
+    }
   }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  check.addEventListener('click', validateAnswer)
   initializeUI()
   createAnswers()
-  check.addEventListener('click', validateAnswer)
 })
 
 
