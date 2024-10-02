@@ -1,20 +1,30 @@
 import questions from './questions.json'
 
+// DOM Elements to use
 const quizContainer = document.getElementById('answersContainer')
+const correctAnswersNumber = document.getElementById('correct')
 const question = document.getElementById('question')
 const check = document.getElementById('checkButton')
-let questionIndex = 0
-let answerIndex = null
+
+
+let questionIndex = 0 // actual question
+let answerIndex = null // index of the selected answer
+let correctAnswers = 0 // number of correct answers
+
 
 function initializeUI() {
   question.innerText = questions[questionIndex].question
+  correctAnswersNumber.innerText = correctAnswers
 }
 
 function setAnswer(evt) {
-  answerIndex = parseInt(evt.currentTarget.dataset.index) 
+  const element = evt.currentTarget
+  answerIndex = parseInt(element.dataset.index)
 }
 
 function createAnswers() {
+  quizContainer.innerHTML = ''
+
   const answers = questions[questionIndex].answers 
   answers.forEach((answer, index) => {
   const answerElement = document.createElement('article')
@@ -27,12 +37,17 @@ function createAnswers() {
   answerElement.appendChild(answerText)
 
   quizContainer.appendChild(answerElement)
-})
+  })
 }
 
-function validateAnswer() {
+function validateAnswer() {  
   if (questions[questionIndex].correct_answer === answerIndex) {
     alert('correct!')
+    correctAnswers++
+    questionIndex++
+    answerIndex = 0
+    initializeUI()
+    createAnswers()
   } else {
     alert('incorrect!')
   }

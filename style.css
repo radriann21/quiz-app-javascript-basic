@@ -11,12 +11,23 @@ body {
 }
 
 main {
-  width: 100%;
+  position: relative;
+  max-width: 100%;
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+header {
+  width: 540px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 2rem;
+  left: 2rem;
 }
 
 section.quiz {
