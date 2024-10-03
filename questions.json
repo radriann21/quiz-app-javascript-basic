@@ -1,112 +1,113 @@
 [
   {
     "id": 1,
-    "question": "¿Qué es JS?",
+    "question": "What is JS?",
     "answers": [
-      "Un lenguaje de programación",
-      "Un sistema operativo",
-      "Un navegador web",
-      "Un motor de búsqueda"
+      "A programming language",
+      "An operating system",
+      "A web browser",
+      "A search engine"
     ],
     "correct_answer": 0
   },
   {
     "id": 2,
-    "question": "¿Qué es HTML?",
+    "question": "What is HTML?",
     "answers": [
-      "Un lenguaje de programación",
-      "Un lenguaje de marcado",
-      "Un sistema operativo",
-      "Una base de datos"
+      "A programming language",
+      "A markup language",
+      "An operating system",
+      "A database"
     ],
     "correct_answer": 1
   },
   {
     "id": 3,
-    "question": "¿Qué es CSS?",
+    "question": "What is CSS?",
     "answers": [
-      "Un lenguaje de programación",
-      "Un servidor web",
-      "Un editor de texto",
-      "Una hoja de estilos en cascada"
+      "A programming language",
+      "A web server",
+      "A text editor",
+      "A cascading style sheet"
     ],
     "correct_answer": 3
   },
   {
     "id": 4,
-    "question": "¿Qué es SQL?",
+    "question": "What is SQL?",
     "answers": [
-      "Un lenguaje de programación",
-      "Un sistema operativo",
-      "Un lenguaje de consulta",
-      "Una herramienta de diseño"
+      "A programming language",
+      "An operating system",
+      "A query language",
+      "A design tool"
     ],
     "correct_answer": 2
   },
   {
     "id": 5,
-    "question": "¿Qué es Python?",
+    "question": "What is Python?",
     "answers": [
-      "Un servidor web",
-      "Un sistema operativo",
-      "Un lenguaje de programación",
-      "Un framework"
+      "A web server",
+      "An operating system",
+      "A programming language",
+      "A framework"
     ],
     "correct_answer": 2
   },
   {
     "id": 6,
-    "question": "¿Qué es Java?",
+    "question": "What is Java?",
     "answers": [
-      "Un navegador web",
-      "Un lenguaje de programación",
-      "Una base de datos",
-      "Un sistema operativo"
+      "A web browser",
+      "A programming language",
+      "A database",
+      "An operating system"
     ],
     "correct_answer": 1
   },
   {
     "id": 7,
-    "question": "¿Qué es Git?",
+    "question": "What is Git?",
     "answers": [
-      "Un lenguaje de programación",
-      "Un sistema operativo",
-      "Un sistema de control de versiones",
-      "Un servidor web"
+      "A programming language",
+      "An operating system",
+      "A version control system",
+      "A web server"
     ],
     "correct_answer": 2
   },
   {
     "id": 8,
-    "question": "¿Qué es GitHub?",
+    "question": "What is GitHub?",
     "answers": [
-      "Un editor de texto",
-      "Un repositorio de código",
-      "Un navegador web",
-      "Una red social"
+      "A text editor",
+      "A code repository",
+      "A web browser",
+      "A social network"
     ],
     "correct_answer": 1
   },
   {
     "id": 9,
-    "question": "¿Qué es Node.js?",
+    "question": "What is Node.js?",
     "answers": [
-      "Un servidor web",
-      "Un lenguaje de programación",
-      "Un entorno de ejecución de JavaScript",
-      "Una base de datos"
+      "A web server",
+      "A programming language",
+      "A JavaScript runtime environment",
+      "A database"
     ],
     "correct_answer": 2
   },
   {
     "id": 10,
-    "question": "¿Qué es React?",
+    "question": "What is React?",
     "answers": [
-      "Un sistema operativo",
-      "Una biblioteca de JavaScript",
-      "Un lenguaje de programación",
-      "Un servidor web"
+      "An operating system",
+      "A JavaScript library",
+      "A programming language",
+      "A web server"
     ],
     "correct_answer": 1
   }
 ]
+

@@ -37,7 +37,6 @@ function lose() {
   quizContainer.appendChild(resetButton)
 }
 
-
 function initializeUI() {
   if (questionIndex === 10) {
     if (correctAnswers >= 7) {
@@ -53,6 +52,7 @@ function initializeUI() {
 
 function setAnswer(evt) {
   const element = evt.currentTarget
+  element.classList.toggle('selected')
   answerIndex = parseInt(element.dataset.index)
 }
 
@@ -85,7 +85,7 @@ function validateAnswer() {
   questionIndex++
 
   if (questionIndex < questions.length) {
-    answerIndex = null // Reset the selected answer
+    answerIndex = null 
     initializeUI()
     createAnswers()
   } else {

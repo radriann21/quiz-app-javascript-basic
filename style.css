@@ -48,6 +48,11 @@ article:hover {
   transform: translateY(-5px);
 }
 
+.selected {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
 button.check {
   width: 140px;
   padding: .5rem;
